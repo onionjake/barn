@@ -1,0 +1,28 @@
+Blob ARchive to Network.
+
+Usage:
+  barn init
+  barn status [<path>...]
+  barn commit [<path>...]
+  barn update [<path>...|--with-contents]
+  barn silo add [--create] [--] <url> 
+  barn commit [--move]
+  barn checkout <url> [<dir>]
+  barn (get|drop) <path> [<path>]...
+  barn numcopies <amount>
+  barn copy (<from> <to>)...
+  barn check [--timeout=<duration>] [--] [<url>...] 
+  barn destroy (<path>|<sha>) [<path>|<sha>]...
+  barn log
+  barn incoming
+  barn find <path> [<path>]...
+  barn -h | --help
+  barn --version
+
+Options:
+  -h --help             Show this screen.
+  --version             Show version.
+  --with-contents
+  --create
+  --move
+  --timeout=<duration>	Time in seconds.
